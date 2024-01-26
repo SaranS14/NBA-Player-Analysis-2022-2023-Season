@@ -36,8 +36,8 @@ Throughout this analysis we'll work with the following dataset that can be found
 | ORB | Number of offensive rebounds per game |
 | DRB | Number of defensive rebounds per game |
 | TRB | Number of total rebounds per game |
-| AST | Number of assist per game |
-| STL | Numbeer of steals per game |
+| AST | Number of assists per game |
+| STL | Number of steals per game |
 | BLK | Number of blocks per game |
 | TOV | Number of turnovers per game |
 | PF | Number of fouls per game |
