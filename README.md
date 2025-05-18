@@ -1,44 +1,44 @@
-# <p style = "text-align: center;"> **2022-2023 NBA Player Analysis** </p>
-## **Overview**
+<p style="text-align: center;">2022–2023 NBA Player Analysis</p>
+Overview
+This repository presents an in-depth analysis of NBA player performance during the 2022–2023 regular season. The goal is to explore player statistics to gain insight into how individual athletes and positions compare across the league.
 
-This repository comprises of an analysis of NBA players regular season perforamnce throughout the 2022-2023 NBA season. Throughout the repository we'll examine player's stats to get a better understanding on how certain players and positions match up against one another. 
-### **Introduction**
+Introduction
+Basketball has evolved into one of the most globally popular sports, with fans and players emerging from every corner of the world—from North America to Asia. With its growing popularity and accessibility, more individuals are inspired to pursue the game and refine their skills. The modern NBA is arguably more competitive than ever, where nearly every player on a roster has the potential to develop into a star.
 
-The sport of basketball has become one of the most prominent sports throughout our world where its interest ranges from North America all the way to Asia. With this growing interest there are more individuals out there in the world eager to pick up and basketball and work on their skills. Right now, the NBA is as talented as it’s ever been where nearly every player on a NBA roster could build themselves into a star. I strongly believe with the power of social media and the internet, the access to information on how anyone can develop their skills is easy to obtain. There are several YouTube videos and Instagram reels giving advice and training regiments on honing their craft. This gives players more freedom to truly develop their skills however they want to by emulating their favourite players and taking concepts for other players. 
+Social media and online platforms like YouTube and Instagram have democratized access to training, tips, and skill development. Aspiring players can now emulate their favorite NBA stars and incorporate elements of various playstyles into their game, creating a new wave of versatile and dynamic talent.
 
-The goal of this project is to showcase how the point guard position which usually consists of shorter players appears to have taken over the NBA but in reality, it's a diminishing position. 
+This project aims to investigate a growing narrative within basketball discourse: while the point guard position—traditionally held by shorter, playmaking athletes—appears to dominate the modern NBA, data may suggest it’s becoming a less central role than perceived. By diving into the statistics, we aim to validate or challenge this notion.
 
-### **Variables**
+Dataset Description
+The analysis is based on a dataset from Kaggle, containing detailed per-game statistics for NBA players during the 2022–2023 regular season. Below is a summary of the variables included:
 
-Throughout this analysis we'll work with the following dataset that can be found on [Kaggle](https://www.kaggle.com/datasets/vivovinco/20222023-nba-player-stats-regular). Below consists of all the variables that are within the dataset and their description.
-| Column | Description |
-| ------- | -------- |
-| Player | Player's name |
-| Pos | Player's position |
-| Age | Player's Age |
-| Tm | Player's Team |
-| G | Number of games played |
-| GS | Number of games started |
-| MP | Number of minutes played per game |
-| FG | Number of field goals made per game |
-| FGA | Number of field goals attempted per game |
-| FG% | Player's field goal percentage |
-| 3P | Number of 3-point field goals made per game |
-| 3PA | Number of 3-point field goals attempted per game |
-| 3P% | Player's 3-point field goal percentage |
-| 2P | Number of 2-point field goals made per game |
-| 2PA | Number of 2-point field goals attempted per game |
-| 2P% | Player's 2-point field goal percentage |
-| eFG% | Player's effective field goal percentage |
-| FT | Number of free throws made per game | 
-| FTA | Number of free throws attempted per game |
-| FT% | Player's free throw percentage |
-| ORB | Number of offensive rebounds per game |
-| DRB | Number of defensive rebounds per game |
-| TRB | Number of total rebounds per game |
-| AST | Number of assists per game |
-| STL | Number of steals per game |
-| BLK | Number of blocks per game |
-| TOV | Number of turnovers per game |
-| PF | Number of fouls per game |
-| PTS | Number of points per game |
+Column	Description
+Player	Player's name
+Pos	Player's position
+Age	Player's age
+Tm	Player's team
+G	Games played
+GS	Games started
+MP	Minutes played per game
+FG	Field goals made per game
+FGA	Field goals attempted per game
+FG%	Field goal percentage
+3P	3-point field goals made per game
+3PA	3-point field goals attempted per game
+3P%	3-point field goal percentage
+2P	2-point field goals made per game
+2PA	2-point field goals attempted per game
+2P%	2-point field goal percentage
+eFG%	Effective field goal percentage
+FT	Free throws made per game
+FTA	Free throws attempted per game
+FT%	Free throw percentage
+ORB	Offensive rebounds per game
+DRB	Defensive rebounds per game
+TRB	Total rebounds per game
+AST	Assists per game
+STL	Steals per game
+BLK	Blocks per game
+TOV	Turnovers per game
+PF	Personal fouls per game
+PTS	Points per game
